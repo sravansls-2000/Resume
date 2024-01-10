@@ -1,48 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SravanKumar</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Shrikhand&display=swap" rel="stylesheet">
-</head>
-<body>
-   <div class="firstPage">
-    <img class="backGroundImg" src="./Sravankumar.png" alt="back">
-    <h1 class="name">I'm Sravan</h1>
-    <p class="programmer">Programmer</p>
-    
-   </div>
-   <div class="profile">
-    <img src="./profile.JPG" alt="profile"/>
-    <h1>Hello</h1>
-    <p> i am a web developer using reactjs and redux. love travel alone with my fav bike himalayan</p>
-   </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React JS Developer Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold">John Doe</h1>
+            <p>React JS Developer</p>
+        </div>
+        <div class="flex items-center">
+            <div class="ml-auto">
+                <!-- Profile photo -->
+                <img src="./profile.JPG" alt="Profile Photo" class="w-12 h-12 rounded-full">
+            </div>
+        </div>
+    </header>
+    </header>
 
-   <div class="mySkills">
-    <h1>My skills</h1>
+    <main class="container mx-auto my-8">
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <div class="">
+            <div class="lg:w-1/2 lg:pr-8">
+                <p class="mb-4">Hi there! I'm Padeti sravan kumar, a passionate React JS developer with over 2 years of hands-on experience in crafting robust and scalable web applications.</p>
+                <p class="mb-4">I graduated with a degree in EEE and have been deeply involved in various React projects, from frontend development to integrating complex UI/UX designs.</p>
+                <p class="mb-4">My expertise lies in building responsive and intuitive user interfaces using modern JavaScript frameworks, leveraging my proficiency in HTML, CSS, and JavaScript.</p>
+            </div>
+           
+        </div>
+    </section>
+    <section class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Experience</h2>
+      <div class="mb-6">
+          <div class="mb-4">
+              <h3 class="text-lg font-semibold">Programmer Analyst - cognizant (2021 - Present)</h3>
+              <p class="text-gray-600">Responsible for developing and maintaining user interface components using React.js, collaborating closely with the design and backend teams to deliver seamless user experiences.</p>
+          </div>
+        
+      </div>
+  </section>
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <div class="flex flex-wrap gap-4">
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">React.js</h3>
+            <p>
+              Proficient in building SPAs, managing state with Redux, and using
+              React hooks effectively.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">JavaScript</h3>
+            <p>
+              Strong knowledge of ES6+, asynchronous programming, and working
+              with APIs.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">HTML & CSS</h3>
+            <p>
+              Experience in building responsive and accessible web interfaces.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">Redux</h3>
+            <p>
+              Expertise in managing application state using Redux, middleware,
+              and Redux Thunk.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">Git</h3>
+            <p>
+              Proficient in version control using Git, including branching,
+              merging, and collaboration.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">Node.js</h3>
+            <p>
+              Experience in building server-side applications using Node.js and
+              Express.js.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">MongoDB</h3>
+            <p>
+              Proficiency in using MongoDB for database management and
+              integration with Node.js applications.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">MySQL</h3>
+            <p>
+              Experience in designing and querying relational databases with
+              MySQL.
+            </p>
+          </div>
+          <!-- Add more skills as needed -->
+        </div>
+      </section>
 
-    <a href="./code.html"><img src="./code.jpg" alt="Code"/></a>
-    <h4>Developer</h4>
-    <p>
-   i am web developer.coding is the daily important task
-    </p>
+      <!-- Projects section with extra details -->
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- Project 1 -->
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">Ambos</h3>
+            <p>
+              Project Ambos is to keep track of all open orders for Merck . It
+              is a role and rule based system where a senior official has access
+              to the progress of the subordinate and can grant or withdraw
+              permission for the subordinate. The system will update the user
+              through mail. It is a role based project.
+            </p>
+          </div>
+          <!-- Project 2 -->
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">Next connect</h3>
+            <p>
+              Project next Connect is an application to keep track of labs ,
+              devices and users within Merck. It is a role based system. Admin
+              can have access to Labs,Devics,Users. Lab admin can have access to
+              labs and devices and end user can directly navigate to devices
+              page
+            </p>
+          </div>
+          <!-- Project 3 (extra) -->
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">MERN Todo App</h3>
+            <p>
+              Created a Todo App using React js in that I am using a library is
+              matirial ui .user have to login to the webApp this user details
+              are stored in local storage to get the user details and present in
+              the home screen . User can click the add todo button then it will
+              open a model and we can enter what we have to add it in the Todo.
+              These todo’s are sorted in the date wise order. User can able to
+              update ,delete added todo. If new user want to login then previous
+              user have to logout.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-4">Certificates</h2>
+        <div class="flex flex-wrap gap-4">
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">
+              HTML, CSS, JavaScript Certificate
+            </h3>
+            <p>
+              Received from HackerRank for demonstrating proficiency in HTML,
+              CSS, and JavaScript.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">
+              React (Intermediate) Certificate
+            </h3>
+            <p>
+              Received from HackerRank for achieving an intermediate level of
+              proficiency in React.
+            </p>
+          </div>
+          <div class="bg-white p-4 shadow rounded">
+            <h3 class="text-lg font-semibold mb-2">
+              The Complete 2023 Web Development Bootcamp Certificate
+            </h3>
+            <p>
+              Received from Udemy for completing the full-stack web development
+              bootcamp.
+            </p>
+          </div>
+          <!-- Add more certificates as needed -->
+        </div>
+      </section>
+    </main>
 
-<a href="./himalayan.html">    <img src="./himalayan.jpg" alt="himalayan"/></a>
-    <h4>Travel</h4>
-    <p>
-travelling is the best part of my life it will change my mind into think fastly
-    </p>
+    <footer class="bg-gray-800 text-white text-center py-4">
+      <div class="container mx-auto">
+        <p>&copy; 2024 Padeti SravanKumar</p>
+        <a href="mailto:sravanpadeti147@gmail.com" class="text-white mx-2"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sravan-kumar-padeti-2457101a7/"
+          target="_blank"
+          class="text-white mx-2"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/johndoe"
+          target="_blank"
+          class="text-white mx-2"
+          ><i class="fab fa-github"></i
+        ></a>
+        <span class="text-white mx-2"><i class="fas fa-phone-alt"></i></span>
+        <p class="text-white">Phone: 6303261808</p>
+      </div>
+    </footer>
 
-   </div>
-   <div class="footer">
-      <a href="www.linkedin.com/in/sravan-padeti-2457101a7">Linkedin</a>
-      <p>@sravanKumar</p>
-      
-   </div>
-</body>
+    <script src="resume.js"></script>
+  </body>
 </html>
