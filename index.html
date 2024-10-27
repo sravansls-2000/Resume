@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sravan Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
@@ -15,52 +16,104 @@
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
-    />
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body class="bg-black-300">
-    <header class="bg-black text-white p-4 flex justify-between items-center">
-        <div class="container mx-auto">
-            <h1 class="text-3xl font-bold">Padeti SravanKumar</h1>
-            <p>React JS Developer</p>
-        </div>
-       
-        <a class="link" href="#about"> About Me </a> 
-        <a class="link" href="#skills">  Skills </a> 
-        <a class="link" href="#projects">  Projects </a> 
-        <a class="link" href="#certificates">   Certifications </a> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse flex flex-end"
+        id="navbarNavAltMarkup"
+      >
+        <div class="navbar-nav">
+          <button class="button-29">
+            <a class="link no-underline text-white" href="#about"> About Me </a>
+          </button>
+          <button class="button-29">
+            <a class="link no-underline text-white" href="#skills"> Skills </a>
+          </button>
 
+          <button class="button-29">
+            <a class="link no-underline text-white" href="#projects">
+              Projects
+            </a>
+          </button>
 
-        <div class="flex items-center">
-            <div class="ml-auto">
-                <!-- Profile photo -->
-                <img src="./profile.JPG" alt="Profile Photo" class="w-12 h-12 rounded-full">
-            </div>
+          <button class="button-29">
+            <a class="link no-underline text-white" href="#certificates">
+              Certifications
+            </a>
+          </button>
         </div>
-    </header>
-    </header>
+      </div>
+      <div class="flex">
+      
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <img
+          src="./profile.JPG"
+          alt="Profile Photo"
+          class="w-12 h-12 mr-10 rounded-full"
+        />
+
+        <div class="flex-auto">
+          <h1 class="text-3xl font-bold">Padeti SravanKumar</h1>
+          <p class="font-bold">Web devloper</p>
+        </div>
+      </nav>
+    </nav>
 
     <main class="container mx-auto my-8">
       <section class="mb-8" id="about">
         <h2 class="text-2xl font-bold mb-4">About Me</h2>
         <div class="">
-            <div class="lg:w-1/2 lg:pr-8">
-                <p class="mb-4">Hi there! I'm Padeti sravan kumar, a passionate React JS developer with over 3 years of hands-on experience in crafting robust and scalable web applications.</p>
-                <p class="mb-4">I graduated with a degree in EEE and have been deeply involved in various React projects, from frontend development to integrating complex UI/UX designs.</p>
-                <p class="mb-4">My expertise lies in building responsive and intuitive user interfaces using modern JavaScript frameworks, leveraging my proficiency in HTML, CSS, and JavaScript.</p>
-            </div>
-           
-        </div>
-    </section>
-    <section class="mb-8">
-      <h2 class="text-2xl font-bold mb-4">Experience</h2>
-      <div class="mb-6">
-          <div class="mb-4">
-              <h3 class="text-lg font-semibold">Programmer Analyst - cognizant (2021 - Present)</h3>
-              <p class="text-gray-600">Responsible for developing and maintaining user interface components using React.js, collaborating closely with the design and backend teams to deliver seamless user experiences.</p>
+          <div class="lg:w-1/2 lg:pr-8">
+            <p class="mb-4">
+              Hi there! I'm Padeti sravan kumar, a passionate React JS developer
+              with over 3 years of hands-on experience in crafting robust and
+              scalable web applications.
+            </p>
+            <p class="mb-4">
+              I graduated with a degree in EEE and have been deeply involved in
+              various React projects, from frontend development to integrating
+              complex UI/UX designs.
+            </p>
+            <p class="mb-4">
+              My expertise lies in building responsive and intuitive user
+              interfaces using modern JavaScript frameworks, leveraging my
+              proficiency in HTML, CSS, and JavaScript.
+            </p>
           </div>
-        
-      </div>
-  </section>
+        </div>
+      </section>
+      <section class="mb-8">
+        <h2 class="text-2xl font-bold mb-4">Experience</h2>
+        <div class="mb-6">
+          <div class="mb-4">
+            <h3 class="text-lg font-semibold">
+              Programmer Analyst - cognizant (2021 - Present)
+            </h3>
+            <p class="text-gray-600">
+              Responsible for developing and maintaining user interface
+              components using React.js, collaborating closely with the design
+              and backend teams to deliver seamless user experiences.
+            </p>
+          </div>
+        </div>
+      </section>
       <section class="mb-8" id="skills">
         <h2 class="text-2xl font-bold mb-4">Skills</h2>
         <div class="flex flex-wrap gap-4">
@@ -112,8 +165,6 @@
               integration with Node.js applications.
             </p>
           </div>
-         
-        
         </div>
       </section>
 
@@ -218,5 +269,6 @@
     </footer>
 
     <script src="resume.js"></script>
+   
   </body>
 </html>
