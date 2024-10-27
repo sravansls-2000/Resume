@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React JS Developer Portfolio</title>
+    <title>Sravan Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
@@ -17,12 +17,19 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-100">
-    <header class="bg-blue-600 text-white p-4 flex justify-between items-center">
+  <body class="bg-black-300">
+    <header class="bg-black text-white p-4 flex justify-between items-center">
         <div class="container mx-auto">
             <h1 class="text-3xl font-bold">Padeti SravanKumar</h1>
             <p>React JS Developer</p>
         </div>
+       
+        <a class="link" href="#about"> About Me </a> 
+        <a class="link" href="#skills">  Skills </a> 
+        <a class="link" href="#projects">  Projects </a> 
+        <a class="link" href="#certificates">   Certifications </a> 
+
+
         <div class="flex items-center">
             <div class="ml-auto">
                 <!-- Profile photo -->
@@ -33,11 +40,11 @@
     </header>
 
     <main class="container mx-auto my-8">
-      <section class="mb-8">
+      <section class="mb-8" id="about">
         <h2 class="text-2xl font-bold mb-4">About Me</h2>
         <div class="">
             <div class="lg:w-1/2 lg:pr-8">
-                <p class="mb-4">Hi there! I'm Padeti sravan kumar, a passionate React JS developer with over 2 years of hands-on experience in crafting robust and scalable web applications.</p>
+                <p class="mb-4">Hi there! I'm Padeti sravan kumar, a passionate React JS developer with over 3 years of hands-on experience in crafting robust and scalable web applications.</p>
                 <p class="mb-4">I graduated with a degree in EEE and have been deeply involved in various React projects, from frontend development to integrating complex UI/UX designs.</p>
                 <p class="mb-4">My expertise lies in building responsive and intuitive user interfaces using modern JavaScript frameworks, leveraging my proficiency in HTML, CSS, and JavaScript.</p>
             </div>
@@ -54,7 +61,7 @@
         
       </div>
   </section>
-      <section class="mb-8">
+      <section class="mb-8" id="skills">
         <h2 class="text-2xl font-bold mb-4">Skills</h2>
         <div class="flex flex-wrap gap-4">
           <div class="bg-white p-4 shadow rounded">
@@ -105,19 +112,13 @@
               integration with Node.js applications.
             </p>
           </div>
-          <div class="bg-white p-4 shadow rounded">
-            <h3 class="text-lg font-semibold mb-2">MySQL</h3>
-            <p>
-              Experience in designing and querying relational databases with
-              MySQL.
-            </p>
-          </div>
-          <!-- Add more skills as needed -->
+         
+        
         </div>
       </section>
 
       <!-- Projects section with extra details -->
-      <section class="mb-8">
+      <section class="mb-8" id="projects">
         <h2 class="text-2xl font-bold mb-4">Projects</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <!-- Project 1 -->
@@ -158,7 +159,7 @@
           </div>
         </div>
       </section>
-      <section class="mb-8">
+      <section class="mb-8" id="certificates">
         <h2 class="text-2xl font-bold mb-4">Certificates</h2>
         <div class="flex flex-wrap gap-4">
           <div class="bg-white p-4 shadow rounded">
